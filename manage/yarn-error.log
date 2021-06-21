@@ -1,0 +1,60 @@
+Arguments: 
+  D:\nodejs\node.exe D:\nodejs\node_global\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  D:\x-shell6\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Pan Iflytek;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\nodejs\node_global;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\svn\bin;D:\git\Git\cmd;D:\maven\apache-maven-3.5.4\bin;D:\flutter\flutter\bin;D:\nodejs\;C:\Users\zpwan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\vscode\Microsoft VS Code\bin;C:\Users\zpwan\AppData\Local\GitHubDesktop\bin;C:\Users\zpwan\AppData\Roaming\npm;%SystemRoot%\System32\Wbem
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.4.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\workspace\myselfworkspace\blog-project\first-vite-app\node_modules\vite\node_modules\esbuild\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "first-vite-app",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "cross-env NODE_ENV=development vite",
+      "build:test": "vue-tsc --noEmit --skipLibCheck && cross-env NODE_ENV=test vite build --mode test",
+      "build:production": "vue-tsc --noEmit --skipLibCheck && cross-env NODE_ENV=production vite build --mode production",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "@kangc/v-md-editor": "^2.3.4",
+      "axios": "^0.21.1",
+      "dayjs": "^1.10.5",
+      "element-plus": "^1.0.2-beta.45",
+      "vue": "^3.0.5",
+      "vue-router": "4.0",
+      "vuex": "^4.0.1"
+    },
+    "devDependencies": {
+      "@types/node": "^15.6.1",
+      "@vitejs/plugin-vue": "^1.2.2",
+      "@vue/compiler-sfc": "^3.0.5",
+      "cross-env": "^7.0.3",
+      "less": "^4.1.1",
+      "less-loader": "^9.0.0",
+      "mini-css-extract-plugin": "^1.6.0",
+      "typescript": "^4.1.3",
+      "vite": "^2.3.4",
+      "vite-plugin-compression": "^0.2.5",
+      "vite-plugin-html": "^2.0.7",
+      "vite-plugin-imagemin": "^0.3.2",
+      "vite-tsconfig-paths": "^3.3.13",
+      "vue-tsc": "^0.0.24"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

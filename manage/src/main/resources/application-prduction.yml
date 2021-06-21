@@ -1,0 +1,11 @@
+#生产
+server:
+  port: 9998
+spring:
+  datasource:
+    url: jdbc:mysql://132.232.66.140:3306/zpwan_blog_info?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: zpwan_blog_info
+    password: ReMJBzeWJ68c8eTY
+logging:
+  file:
+    path: /home

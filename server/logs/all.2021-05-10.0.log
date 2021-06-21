@@ -1,0 +1,137 @@
+2021-05-10 09:37:29.590 [restartedMain] INFO  com.java.blog.BlogserverApplication - Starting BlogserverApplication using Java 1.8.0_152 on zpwan-np with PID 12416 (E:\workspace\myselfworkspace\blog-project\blog-mulitpage-server-master\target\classes started by zpwan in E:\workspace\myselfworkspace\blog-project\blog-mulitpage-server-master) 
+2021-05-10 09:37:29.595 [restartedMain] INFO  com.java.blog.BlogserverApplication - The following profiles are active: dev 
+2021-05-10 09:37:29.699 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-05-10 09:37:29.700 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-05-10 09:37:32.171 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http) 
+2021-05-10 09:37:32.191 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"] 
+2021-05-10 09:37:32.192 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-05-10 09:37:32.193 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-05-10 09:37:32.368 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-05-10 09:37:32.369 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2667 ms 
+2021-05-10 09:37:33.654 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-05-10 09:37:33.670 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"] 
+2021-05-10 09:37:33.707 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '' 
+2021-05-10 09:37:33.719 [restartedMain] INFO  com.java.blog.BlogserverApplication - Started BlogserverApplication in 5.39 seconds (JVM running for 10.506) 
+2021-05-10 09:37:41.624 [http-nio-9999-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-05-10 09:37:41.624 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-05-10 09:37:41.626 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021-05-10 09:37:41.745 [http-nio-9999-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited 
+2021-05-10 09:38:58.901 [http-nio-9999-exec-2] INFO  com.java.blog.service.AdminManageService - 管理员zpwan登陆成功 
+2021-05-10 09:54:35.964 [http-nio-9999-exec-1] INFO  com.java.blog.service.AdminManageService - 管理员zpwan被删除 
+2021-05-10 09:54:52.135 [http-nio-9999-exec-4] INFO  com.java.blog.service.AdminManageService - 新增管理员zpwan 
+2021-05-10 10:42:28.227 [http-nio-9999-exec-4] INFO  com.java.blog.service.AdminManageService - 新增管理员 
+2021-05-10 10:52:04.034 [http-nio-9999-exec-5] INFO  com.java.blog.service.AdminManageService - 管理员被删除 
+2021-05-10 11:28:25.025 [http-nio-9999-exec-5] INFO  com.java.blog.service.AdminManageService - 新增枚举0 
+2021-05-10 14:32:45.772 [http-nio-9999-exec-8] INFO  com.java.blog.service.AdminManageService - 枚举1删除 
+2021-05-10 14:40:51.700 [restartedMain] INFO  com.java.blog.BlogserverApplication - Starting BlogserverApplication using Java 1.8.0_152 on zpwan-np with PID 18140 (E:\workspace\myselfworkspace\blog-project\blog-mulitpage-server-master\target\classes started by zpwan in E:\workspace\myselfworkspace\blog-project\blog-mulitpage-server-master) 
+2021-05-10 14:40:51.702 [restartedMain] INFO  com.java.blog.BlogserverApplication - The following profiles are active: dev 
+2021-05-10 14:40:51.761 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-05-10 14:40:51.761 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-05-10 14:40:53.563 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http) 
+2021-05-10 14:40:53.573 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"] 
+2021-05-10 14:40:53.574 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-05-10 14:40:53.574 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-05-10 14:40:53.686 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-05-10 14:40:53.686 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1924 ms 
+2021-05-10 14:40:54.566 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-05-10 14:40:54.582 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"] 
+2021-05-10 14:40:54.601 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '' 
+2021-05-10 14:40:54.613 [restartedMain] INFO  com.java.blog.BlogserverApplication - Started BlogserverApplication in 4.111 seconds (JVM running for 6.093) 
+2021-05-10 14:41:04.940 [http-nio-9999-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-05-10 14:41:04.941 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-05-10 14:41:04.942 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021-05-10 14:41:05.051 [http-nio-9999-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited 
+2021-05-10 14:41:22.762 [http-nio-9999-exec-2] INFO  com.java.blog.service.AdminManageService - 管理员admin登陆成功 
+2021-05-10 14:41:31.744 [http-nio-9999-exec-10] INFO  com.java.blog.service.AdminManageService - 新增枚举0 
+2021-05-10 14:41:35.338 [http-nio-9999-exec-8] INFO  com.java.blog.service.AdminManageService - 枚举2删除 
+2021-05-10 14:48:18.684 [restartedMain] INFO  com.java.blog.BlogserverApplication - Starting BlogserverApplication using Java 1.8.0_152 on zpwan-np with PID 20756 (E:\workspace\myselfworkspace\blog-project\blog-mulitpage-server-master\target\classes started by zpwan in E:\workspace\myselfworkspace\blog-project\blog-mulitpage-server-master) 
+2021-05-10 14:48:18.688 [restartedMain] INFO  com.java.blog.BlogserverApplication - The following profiles are active: dev 
+2021-05-10 14:48:18.761 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-05-10 14:48:18.761 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-05-10 14:48:19.755 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http) 
+2021-05-10 14:48:19.764 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"] 
+2021-05-10 14:48:19.765 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-05-10 14:48:19.765 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-05-10 14:48:19.840 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-05-10 14:48:19.840 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1078 ms 
+2021-05-10 14:48:20.378 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-05-10 14:48:20.389 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"] 
+2021-05-10 14:48:20.410 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '' 
+2021-05-10 14:48:20.422 [restartedMain] INFO  com.java.blog.BlogserverApplication - Started BlogserverApplication in 2.864 seconds (JVM running for 3.865) 
+2021-05-10 14:48:47.104 [http-nio-9999-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-05-10 14:48:47.105 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-05-10 14:48:47.106 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021-05-10 14:48:47.738 [http-nio-9999-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited 
+2021-05-10 14:48:53.149 [http-nio-9999-exec-3] INFO  com.java.blog.service.AdminManageService - 新增枚举0 
+2021-05-10 14:49:08.636 [http-nio-9999-exec-6] INFO  com.java.blog.service.AdminManageService - 新增枚举1 
+2021-05-10 14:49:17.937 [http-nio-9999-exec-7] INFO  com.java.blog.service.AdminManageService - 枚举2删除 
+2021-05-10 14:49:26.898 [http-nio-9999-exec-8] INFO  com.java.blog.service.AdminManageService - 新增枚举2 
+2021-05-10 14:49:50.704 [restartedMain] INFO  com.java.blog.BlogserverApplication - Starting BlogserverApplication using Java 1.8.0_152 on zpwan-np with PID 19904 (E:\workspace\myselfworkspace\blog-project\blog-mulitpage-server-master\target\classes started by zpwan in E:\workspace\myselfworkspace\blog-project\blog-mulitpage-server-master) 
+2021-05-10 14:49:50.707 [restartedMain] INFO  com.java.blog.BlogserverApplication - The following profiles are active: dev 
+2021-05-10 14:49:50.772 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-05-10 14:49:50.772 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-05-10 14:49:51.614 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http) 
+2021-05-10 14:49:51.621 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"] 
+2021-05-10 14:49:51.621 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-05-10 14:49:51.622 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-05-10 14:49:51.691 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-05-10 14:49:51.691 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 918 ms 
+2021-05-10 14:49:52.189 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-05-10 14:49:52.202 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"] 
+2021-05-10 14:49:52.223 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '' 
+2021-05-10 14:49:52.233 [restartedMain] INFO  com.java.blog.BlogserverApplication - Started BlogserverApplication in 2.342 seconds (JVM running for 3.338) 
+2021-05-10 14:50:21.328 [http-nio-9999-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-05-10 14:50:21.328 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-05-10 14:50:21.329 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021-05-10 14:50:21.930 [http-nio-9999-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited 
+2021-05-10 14:50:26.732 [http-nio-9999-exec-3] INFO  com.java.blog.service.AdminManageService - 新增枚举0 
+2021-05-10 14:50:35.986 [http-nio-9999-exec-5] INFO  com.java.blog.service.AdminManageService - 新增枚举1 
+2021-05-10 14:50:53.072 [http-nio-9999-exec-7] INFO  com.java.blog.service.AdminManageService - 枚举2删除 
+2021-05-10 14:50:57.066 [http-nio-9999-exec-9] INFO  com.java.blog.service.AdminManageService - 新增枚举2 
+2021-05-10 14:55:05.944 [restartedMain] INFO  com.java.blog.BlogserverApplication - Starting BlogserverApplication using Java 1.8.0_152 on zpwan-np with PID 19876 (E:\workspace\myselfworkspace\blog-project\blog-mulitpage-server-master\target\classes started by zpwan in E:\workspace\myselfworkspace\blog-project\blog-mulitpage-server-master) 
+2021-05-10 14:55:05.946 [restartedMain] INFO  com.java.blog.BlogserverApplication - The following profiles are active: dev 
+2021-05-10 14:55:06.010 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-05-10 14:55:06.010 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-05-10 14:55:07.061 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http) 
+2021-05-10 14:55:07.068 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"] 
+2021-05-10 14:55:07.068 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-05-10 14:55:07.069 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-05-10 14:55:07.139 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-05-10 14:55:07.139 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1128 ms 
+2021-05-10 14:55:07.647 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-05-10 14:55:07.657 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"] 
+2021-05-10 14:55:07.673 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '' 
+2021-05-10 14:55:07.682 [restartedMain] INFO  com.java.blog.BlogserverApplication - Started BlogserverApplication in 2.285 seconds (JVM running for 3.284) 
+2021-05-10 14:55:15.397 [http-nio-9999-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-05-10 14:55:15.397 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-05-10 14:55:15.399 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms 
+2021-05-10 14:55:16.046 [http-nio-9999-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited 
+2021-05-10 14:55:43.945 [http-nio-9999-exec-5] INFO  com.java.blog.service.AdminManageService - 新增枚举0 
+2021-05-10 14:55:51.046 [http-nio-9999-exec-7] INFO  com.java.blog.service.AdminManageService - 新增枚举1 
+2021-05-10 14:55:59.923 [http-nio-9999-exec-9] INFO  com.java.blog.service.AdminManageService - 新增枚举2 
+2021-05-10 14:56:07.448 [http-nio-9999-exec-1] INFO  com.java.blog.service.AdminManageService - 新增枚举3 
+2021-05-10 14:56:47.533 [http-nio-9999-exec-5] INFO  com.java.blog.service.AdminManageService - 新增枚举0 
+2021-05-10 14:56:54.400 [http-nio-9999-exec-7] INFO  com.java.blog.service.AdminManageService - 新增枚举1 
+2021-05-10 14:57:03.886 [http-nio-9999-exec-9] INFO  com.java.blog.service.AdminManageService - 新增枚举2 
+2021-05-10 14:57:10.162 [http-nio-9999-exec-1] INFO  com.java.blog.service.AdminManageService - 新增枚举3 
+2021-05-10 15:06:17.274 [http-nio-9999-exec-10] INFO  com.java.blog.service.AdminManageService - 枚举0更新 
+2021-05-10 15:07:41.623 [restartedMain] INFO  com.java.blog.BlogserverApplication - Starting BlogserverApplication using Java 1.8.0_152 on zpwan-np with PID 9800 (E:\workspace\myselfworkspace\blog-project\blog-mulitpage-server-master\target\classes started by zpwan in E:\workspace\myselfworkspace\blog-project\blog-mulitpage-server-master) 
+2021-05-10 15:07:41.627 [restartedMain] INFO  com.java.blog.BlogserverApplication - The following profiles are active: dev 
+2021-05-10 15:07:41.701 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-05-10 15:07:41.702 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-05-10 15:07:42.592 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http) 
+2021-05-10 15:07:42.599 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"] 
+2021-05-10 15:07:42.600 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-05-10 15:07:42.600 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-05-10 15:07:42.674 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-05-10 15:07:42.675 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 972 ms 
+2021-05-10 15:07:43.249 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-05-10 15:07:43.261 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"] 
+2021-05-10 15:07:43.280 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '' 
+2021-05-10 15:07:43.289 [restartedMain] INFO  com.java.blog.BlogserverApplication - Started BlogserverApplication in 2.259 seconds (JVM running for 3.285) 
+2021-05-10 15:07:45.036 [http-nio-9999-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-05-10 15:07:45.036 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-05-10 15:07:45.037 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021-05-10 15:07:45.735 [http-nio-9999-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited 
+2021-05-10 15:07:51.465 [http-nio-9999-exec-2] INFO  com.java.blog.service.AdminManageService - 枚举5更新 
+2021-05-10 15:08:10.480 [http-nio-9999-exec-5] INFO  com.java.blog.service.AdminManageService - 枚举0更新 

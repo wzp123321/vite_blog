@@ -4,6 +4,3 @@ dist
 dist-ssr
 *.local
 viteBlogWeb
-**/node_modules/**
-**/targte/**
-**/.mvn/**
